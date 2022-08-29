@@ -6,6 +6,7 @@ function add(product, price) {
     products.push(product);
     total = total + price;
     document.getElementById("checkout").innerHTML = `Pagar Q${total}`
+    console.log('Un nuevo mensaje')
 }
 
 function pay() {
